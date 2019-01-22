@@ -1,7 +1,7 @@
 # Gadget Store
 ## SS Web
 ### 1. Home
-![home]("assets/Screenshot5.png")
+![home](assets/Screenshot5.png)
 
 ### 2. Product
 ![product](assets/Screenshot6.png)
