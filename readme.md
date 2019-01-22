@@ -1,3 +1,18 @@
+# Gadget Store
+## SS Web
+### 1. Home
+![home](.\assets\Screenshot5.png)
+
+### 2. Product
+![product](.\assets\Screenshot6.png)
+
+### 3. Detail
+![detail](.\assets\Screenshot7.png)
+
+### 4. About
+![about](.\assets\Screenshot8.png)
+
+
 ###################
 What is CodeIgniter
 ###################
