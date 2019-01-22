@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>detail</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?=base_url('assets/style.css')?>">
  
 </head>
-<body>
+<body class="bg-detail">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,32 +23,37 @@
     </div>
   </div>
 </nav>
-    <div class="container-fluid">
+    <div class="container card p-5 mt-5">
     <div class="col-12">
-    <h1>Laptop Toshiba c800</h1>
+    <h1>Laptop Toshiba C800</h1>
     </div>
     <div class="row">
-        <div class="col-4">
+        <div class="col-6">
         <img src="<?= base_url('assets/'.$id.'.jpg')?>" width="400" alt="">
         </div>
-        <div class="col-8">
+        <div class="col-6 ">
             <table class="table">
                 <tbody>
                     <tr>
                     <th scope="row">Harga</th>
-                    <td>10000000</td>
+                    <td>Rp 4.512.400</td>
                     </tr>
                     <tr>
-                    <th scope="row">Fitur Produk</th>
-                    <td>10000000</td>
+                    <th scope="row">Deskripsi</th>
+                    <td>Celeron, 1.7﻿Ghz﻿<br>
+                    Free DOS <br>
+                    HDD, 320GB <br>
+128 GB PCIe® NVMe™ M.2 SSD <br>
+DDR3, 2GB, <br>
+15.6" diagonal FHD IPS anti-glare micro-edge </td>
                     </tr>
                     <tr>
                     <th scope="row">Warna</th>
-                    <td>Jacob</td>
+                    <td>Biru</td>
                     </tr>
                     <tr>
-                    <th scope="row">Jumlah</th>
-                    <td>Larry</td>
+                    <th scope="row">Stok</th>
+                    <td>9</td>
                     </tr>
                 </tbody>
             </table>

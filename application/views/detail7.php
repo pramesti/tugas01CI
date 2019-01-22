@@ -5,15 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>detail</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?=base_url('assets/style.css')?>">
  
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="bg-detail">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -27,34 +23,37 @@
     </div>
   </div>
 </nav>
-    </div>
-    </nav>
-    <div class="container-fluid">
+    <div class="container card p-5 mt-5">
     <div class="col-12">
-    <h1>Laptop HP Pavilion</h1>
+    <h1>Asus Zenfone 5</h1>
     </div>
     <div class="row">
-        <div class="col-4">
+        <div class="col-6">
         <img src="<?= base_url('assets/'.$id.'.jpg')?>" width="400" alt="">
         </div>
-        <div class="col-8">
+        <div class="col-6 ">
             <table class="table">
                 <tbody>
                     <tr>
                     <th scope="row">Harga</th>
-                    <td>10000000</td>
+                    <td>Rp 2.500.000</td>
                     </tr>
                     <tr>
-                    <th scope="row">Fitur Produk</th>
-                    <td>10000000</td>
+                    <th scope="row">Deskripsi</th>
+                    <td>Android<br>
+                    Dual SIM <br>
+                    Quad-Core 1.4 GHz <br>
+                    MicroSD (Up to 256GB) <br>
+                    non-removable 2600mAh<br>
+                    4.5 inches 1280x720 </td>
                     </tr>
                     <tr>
                     <th scope="row">Warna</th>
-                    <td>Jacob</td>
+                    <td>Biru, Hitam, Putih, Merah</td>
                     </tr>
                     <tr>
-                    <th scope="row">Jumlah</th>
-                    <td>Larry</td>
+                    <th scope="row">Stok</th>
+                    <td>20</td>
                     </tr>
                 </tbody>
             </table>
